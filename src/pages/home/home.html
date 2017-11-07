@@ -1,14 +1,47 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+  <ion-navbar color="primary">
+    <ion-title>Personal Trainer</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-card>
+    <ion-card-header>
+      This week
+    </ion-card-header>
+    <ion-list>
+      <button ion-item>
+        <ion-icon name="ion-checkmark" item-start></ion-icon>
+        Upper Power
+        <div class="growth-icon growth-positive" item-end>
+          9%
+          <ion-icon name="ion-up-arrow-b"></ion-icon>
+        </div>
+      </button>
+      <button ion-item>
+        <ion-icon name="ion-checkmark" item-start></ion-icon>
+        Lower Power
+        <div class="growth-icon growth-negative" item-end>
+          6%
+          <ion-icon name="ion-down-arrow-b"></ion-icon>
+        </div>
+      </button>
+      <button ion-item>
+        <ion-icon name="ion-help" item-start></ion-icon>
+        Upper Hypertrophy
+        <div class="growth-icon" item-end>
+          
+          <ion-icon name="ion-down-arrow-b"></ion-icon>
+        </div>
+      </button>
+      <button ion-item>
+        <ion-icon name="ion-help" item-start></ion-icon>
+        Lower Hypertrophy
+        <div class="growth-icon" item-end>
+          
+          <ion-icon name="ion-down-arrow-b"></ion-icon>
+        </div>
+      </button>
+    </ion-list>
+  </ion-card>
 </ion-content>

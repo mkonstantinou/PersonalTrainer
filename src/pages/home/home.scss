@@ -1,3 +1,18 @@
 page-home {
-
-}
+    
+    }
+    
+    .growth-icon {
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        padding-top: 16px;
+    
+        &.growth-positive {
+            background: map-get($colors, primary);
+        }
+        &.growth-negative {
+            background: map-get($colors, danger);
+        }
+    }
