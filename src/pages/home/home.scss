@@ -2,6 +2,30 @@ page-home {
     
     }
     
+    .workout {
+        // border-radius: 100%;
+        // border-style: solid;
+        // border-width: 1px;
+        // border-color: black;
+        height: 50px;
+        width: 50px;
+
+        &.workout-completed .date.date-month {
+            text-align: center;
+            //background-color: red;
+        }
+        &.workout-completed .date.date-day {
+            text-align: center;
+        }
+
+    }
+
+    .this-week > ion-card {
+        height: 250px;
+        width: 110%;
+        box-shadow: 10px 10px 5px #888888;
+    }    
+
     .growth-icon {
         border-radius: 100%;
         width: 50px;

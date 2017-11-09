@@ -25512,6 +25512,26 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-top));
 }
 
+.workout {
+  height: 50px;
+  width: 50px;
+}
+
+.workout.workout-completed .date.date-month {
+  text-align: center;
+}
+
+.workout.workout-completed .date.date-day {
+  text-align: center;
+}
+
+.this-week > ion-card {
+  height: 250px;
+  width: 110%;
+  -webkit-box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #888888;
+}
+
 .growth-icon {
   border-radius: 100%;
   width: 50px;
